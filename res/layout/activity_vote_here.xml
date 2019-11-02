@@ -1,0 +1,109 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+   
+    tools:context=".VoteHere" 
+    android:gravity="bottom"
+   
+   
+   >
+   
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote for Perticular party"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginBottom="65dp"/>
+
+    <TableRow  
+        android:id="@+id/t1"
+         android:gravity="center_horizontal"
+       
+      >
+      <ImageView 
+          android:layout_width="60dp"
+          android:layout_height="40dp"
+          android:src="@drawable/shivsena2"
+          android:layout_marginRight="15dp"/>  
+          
+      <TextView
+         android:layout_marginTop="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Shivsena"
+          android:textSize="20dp"
+          
+            />
+        
+        
+    </TableRow>
+    
+    
+    
+   
+    
+    <TableRow 
+         android:gravity="center_horizontal"
+         android:id="@+id/t2"
+        
+         android:layout_marginTop="30dp">
+      <ImageView 
+          android:layout_width="60dp"
+          android:layout_height="40dp"
+          android:src="@drawable/mns"
+          android:layout_marginRight="15dp"/>  
+          
+      <TextView
+         android:layout_marginTop="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="MNS"
+          android:textSize="20dp"
+            />
+        
+        
+    </TableRow>
+    
+    
+    
+    <TableRow 
+         android:gravity="center_horizontal"
+         android:id="@+id/t3"
+         
+         android:layout_marginTop="30dp"
+        
+        >
+        
+         <ImageView 
+          android:layout_width="60dp"
+          android:layout_height="40dp"
+          android:src="@drawable/congress2"
+          android:layout_marginRight="15dp"/>  
+          
+      <TextView
+         android:layout_marginTop="8dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Congress"
+          android:textSize="20dp"
+            />
+        
+    </TableRow>
+    
+   
+    
+    <Button 
+        android:layout_marginTop="130dp"
+        android:background="#FFA07A"
+        android:id="@+id/b1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Save"
+        />
+
+   
+    
+</TableLayout>
